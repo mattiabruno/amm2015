@@ -21,7 +21,7 @@ td, th {
 $id = intval($_GET['id']);
 
 
-$con = mysqli_connect('localhost','','');
+$con = mysqli_connect('localhost','brunoMattia','gnu4867');
 if (!$con) {
     die('Could not connect: ' . mysqli_error($con));
 }

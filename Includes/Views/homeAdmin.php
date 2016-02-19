@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <link href="../../Assets/Css/stile.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>  
-<title>Noleggio DvD</title>
+<title>Compra DvD</title>
 	<!-- Script Slideshow -->
 <script>  
 $(function(){  

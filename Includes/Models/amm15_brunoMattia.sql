@@ -1,4 +1,3 @@
-USE amm15_brunoMattia;
 
 CREATE TABLE IF NOT EXISTS `Carrello` (
   `id_carrello` int(4) NOT NULL AUTO_INCREMENT,

@@ -23,9 +23,6 @@ $(function(){
       <img src="../../Assets/Immagini/american-sniper.jpg"/>  
       <img src="../../Assets/Immagini/kickass.jpg"/>  
      </div> 
-      	<div id="titolo">
-	 <img src="../../Assets/Immagini/Titolo.jpg"/>  
-	</div>
      <div id="menu">
     	 <div id="bottone_home">
                  <a href="home.php"><img style="margin-top:-4px;" src="../../Assets/Immagini/tasto-home.jpg";></a>

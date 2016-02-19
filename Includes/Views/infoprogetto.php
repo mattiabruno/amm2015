@@ -8,11 +8,10 @@
 		
         <h2> Descrizione dell'applicazione </h2>
         <p>
-        Il sito che ho realizzato gestisce un negozio di film.
-	Le funzionalità dell'admin comprendono la creazione, la modifica e l'eliminazione di film dal database.
-        Le funzionalità dell'utente comprendono l'aggiunta dei film sul carrello, e l'acquisto di quest'utlimi.
+        Il sito che ho realizzato gestisce un negozio di film.<br>
+	Le funzionalità dell'admin comprendono la creazione, la modifica e l'eliminazione di film dal database.<br>
+        Le funzionalità dell'utente comprendono l'aggiunta dei film sul carrello, e l'acquisto di quest'utlimi.<br>
         I dati presenti all'interno del database sono i seguenti:
-	    
         </p>
         <ul>
             <li>Id_utente, nome, password della tabella utente</li>
@@ -37,13 +36,13 @@
             <li>Utilizzo di HTML e CSS</li>
             <li>Utilizzo di PHP e MySQL</li>
             <li>Utilizzo del pattern MVC </li>
-            <li>Utilizzo di jQuery per la realizzazione dello slideshow, nel quale vengono visualizzate varie immagini caricate nella cartella
-            immagini.</li>
             <li>Due ruoli (utente e admin)</li>
             <li>Transazioni:</li>
-            <li>Lato User: Transazione per la compravendità dei film, funzione per l'aggiunta e l'eliminazione di un film dal carrello.  </li>
-            <li>Lato Admin: Funzione per l'aggiunta, l'eliminazione e la modifica di un film.</li>
-            <li>Caricamento ajax dei dati relativi al film da eliminare, i dati vengono estrappolati dal database.(ruolo admin)</li>
+            <li>	Lato User: Transazione per la compravendità dei film, funzione per l'aggiunta e l'eliminazione di un film dal carrello.  </li>
+            <li>	Lato Admin: Funzione per l'aggiunta, l'eliminazione e la modifica di un film.</li>
+            <li>Utilizzo Jajax, con il caricamento dei dati relativi al film da eliminare, i dati vengono estrappolati dal database.(ruolo admin)</li>
+            <li>Utilizzo di jQuery per la realizzazione dello slideshow, nel quale vengono visualizzate varie immagini caricate nella cartella
+            immagini.</li>
         </ul>
     </ul>
 

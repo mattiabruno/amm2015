@@ -46,27 +46,27 @@
 				<h1>Aggiungi Film</h1><br>
 				<!-- campo ed etichetta Titolo -->   
 				<label for="Titolo" id="Titolo">Titolo
-				<input type="text" name="Titolo" id="Titolo"/><br>
+				<input type="text" name="Titolo" id="Titolo" required/><br>
 				</label>
 				<!-- campo ed etichetta Descrizione -->  
 				<label for="Descrizione" id="Descrizione">Descrizione (max:2000 caratteri)<br>
-				<textarea name="Descrizione" rows="10" cols="100" ></textarea><br>
+				<textarea name="Descrizione" rows="10" cols="100" required ></textarea><br>
 				</label>
 				<!-- campo ed etichetta Url -->  
 				<label for="Url" id="Url">Url
-				<input type="text" name="Url" id="Url"/><b>
+				<input type="text" name="Url" id="Url" required/><b>
 				</label>
 				<!-- campo ed etichetta Durata -->   
 				<label for="Durata" id="Durata">Durata
-				 <input type="text" name="Durata" id="Durata"/><br>
+				 <input type="text" name="Durata" id="Durata" required/><br>
 				</label>
 				<!-- campo ed etichetta Prezzo -->   
 				<label for="Prezzo" id="Prezzo">Prezzo
-				 <input type="text" name="Prezzo" id="Prezzo"/><br>
+				 <input type="text" name="Prezzo" id="Prezzo" required/><br>
 				</label>
 				<!-- campo ed etichetta Magazzino -->   
 				<label for="Magazzino" id="Magazzino">Magazzino
-				 <input type="text" name="Magazzino" id="Magazzino"/><br>
+				 <input type="text" name="Magazzino" id="Magazzino" required/><br>
 				</label>
 				<!-- tasto di invio -->
 				<input style="margin-top:30px; text-align:center; background: #00c0FF; color: #fff; padding-top:15px; padding-left:50px;

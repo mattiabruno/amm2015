@@ -1,0 +1,28 @@
+<?php
+include '../Models/a.php';
+$nome = $_POST['nome'];
+$password = $_POST['password'];
+$auth = new a();
+$controllo = $auth->VerificaLogin($nome,$password);
+	if($controllo == false)
+	{
+		mysql_close($this->conn);
+		die;
+	}
+	else
+	{
+		$_SESSION['auth'] = 1;
+		$_SESSION['utenti_id'] = $controllo['id_utenti'];
+		if($controllo['id_utenti'] == 1)
+		{
+			header("Location: ../Views/homeAdmin.php");
+		}
+		else
+		{
+			header("Location: ../Views/homeUtente.php");
+		}
+
+	}
+
+?>
+

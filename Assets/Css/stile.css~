@@ -1,0 +1,467 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body{
+  margin:0;
+  padding:0;
+  background:#a6a6a6 url(../../Assets/Immagini/body3.png);
+}
+
+footer{	
+ padding: 0px;
+ text-align: center;
+ margin-left:0px;
+ width:1150px; 
+ height:57px;
+ background:url(../../Assets/Immagini/barra-footer.jpg)
+}
+
+a{
+	text-decoration:none;	
+}
+
+#slideshow { 
+ margin:0 auto; 
+ padding:0;  
+ width:910px;  
+ height:250px;  
+ border:5px solid #00c0FF;  
+ text-align: center;
+}  
+
+#titolo { 
+ margin:0 auto; 
+ padding-bottom: 30px;  
+ width:910px;  
+ height:20px;   
+ text-align: center;
+}  
+
+#slideshow img {   
+ display:block;  
+ position:absolute;  
+}  
+
+#sfondo_centrale {
+ padding-top:20px;	
+ margin:0 auto;
+ width:1150px; 
+ height:100%; 
+ background-color: #393939;
+}
+
+#menu{
+  margin-top:20px;
+  background: url(../../Assets/Immagini/barra-menu.png);
+  background-repeat: no-repeat; 
+}
+
+#bottone_home{
+  margin-left:9px;
+}
+
+#bottone_logout{
+  padding-right:10px;
+  float:right;
+  padding-top:12px;
+}
+
+#contenuto{
+	padding-top:30px;
+	padding-bottom: 40px;
+	padding-right:22px;
+	padding-left:22px;
+	margin-bottom: 10px;
+	background-color: #393939;
+}
+
+/* Pannello Login */
+
+*{ margin:0; padding:0;}
+
+#lightout{
+	height:100%;
+	background-color:#000;
+	opacity:0.9;
+	position:absolute;
+	z-index:1;
+	overflow:hidden;
+	width:100%;
+}
+
+form#panello-login{
+		z-index:2;
+		width:650px;
+		height:600px;
+		position:relative;
+		background-image:url(../../Assets/Immagini/sfondopanel4.png);
+		background-repeat:no-repeat;
+		background-position:center;
+		margin:10px auto;
+}
+
+form#panello-login h1{
+	font-family:SansumiExtraBoldRegular, Tahoma, Geneva, sans-serif;
+	font-size:34px;
+	text-align:center;
+	line-height:160px;
+	color:#fff;
+}
+
+h2{
+	font-family:SansumiExtraBoldRegular, Tahoma, Geneva, sans-serif;
+	font-size:28px;
+	text-align:center;
+	color:#fff;
+}
+
+form#panello-login label{
+	margin:70px auto;
+	width:360px;
+	font-family:SansumiExtraBoldRegular, Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	text-align:left;
+	text-shadow: 0 4px 1px #000;
+	line-height:30px;
+	color:#fff;
+	height:0px;
+	display:block;
+}
+
+form#panello-login label input{
+	padding: 5px;
+	height:20px;
+	float:right;
+	font-family:Berlin Sans FB Demi;
+	font-size:18px;
+
+}
+
+form#panello-login p.lostpass{
+	width:400px;
+	margin:0 auto;
+	text-align:right;
+
+}
+
+form#panello-login p.lostpass a{
+	color:#999;
+	font-family:SansumiExtraBoldRegular, Tahoma, Geneva, sans-serif;
+	font-size:10px;
+	text-decoration:none;
+
+}
+
+form#panello-login p.lostpass a:hover{
+	color:#fff;
+}
+
+form#panello-login p.submit{
+	clear:both;
+	width:400px;
+	overflow:hidden;
+	margin:0 auto;
+}
+
+form#panello-login p.submit input[type=submit]{
+
+		border-radius:5px;
+		color:#fff;
+		text-shadow:0 2px 1px #000;
+		background-color:#ff4e00;
+		padding:5px 15px;
+		float:right;
+		font-family:SansumiExtraBoldRegular, Tahoma, Geneva, sans-serif;
+		font-size:18px;
+		border:none;
+		margin:15px 0 0 0;
+		display:block;
+		box-shadow: 0 0px 8px #000;
+}
+
+form#panello-login p.submit input[type=submit]:hover{
+		background-color:#ff8a00;
+		cursor:auto;
+}
+
+/* Pannello Aggiungi*/
+
+#pannello-aggiungi{
+  border:6px solid #fff;
+  border-radius:10px;
+  padding-top: 30px;
+  padding-bottom:120px;
+  padding-left: 30px;
+  padding-right: 95px;
+  width: 100px;
+  margin: 0;
+}
+
+form#pannello-aggiungi label input{
+  
+  width: 500px;
+}
+
+form#pannello-aggiungi{
+		z-index:2;
+		width:650px;
+		height:450px;
+		position:relative;
+		margin:10px auto;
+}
+
+form#pannello-aggiungi h1{
+	font-family:SansumiExtraBoldRegular, Tahoma, Geneva, sans-serif;
+	font-size:34px;
+	text-align:center;
+	color:#fff;
+}
+
+form#pannello-aggiungi label{
+	margin:30px auto;
+	font-family:SansumiExtraBoldRegular, Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	text-align:left;
+	text-shadow: 0 4px 1px #000;
+	line-height:30px;
+	color:#fff;
+	height:0px;
+	display:block;
+}
+
+form#pannello-aggiungi label#Descrizione{
+	margin:30px auto;
+	font-family:SansumiExtraBoldRegular, Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	text-align:left;
+	text-shadow: 0 4px 1px #000;
+	line-height:30px;
+	color:#fff;
+	height:0px;
+	display:block;
+}
+form#pannello-aggiungi label#Url{
+	padding-top:175px;
+	margin:30px auto;
+	font-family:SansumiExtraBoldRegular, Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	text-align:left;
+	text-shadow: 0 4px 1px #000;
+	line-height:30px;
+	color:#fff;
+	height:0px;
+	display:block;
+}
+form#pannello-aggiungi label#Durata{
+	margin:30px auto;
+	padding-top:7px;
+	font-family:SansumiExtraBoldRegular, Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	text-align:left;
+	text-shadow: 0 4px 1px #000;
+	line-height:30px;
+	color:#fff;
+	height:0px;
+	display:block;
+}
+
+form#pannello-aggiungi label#Prezzo{
+	margin:30px auto;
+	padding-top:7px;
+	font-family:SansumiExtraBoldRegular, Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	text-align:left;
+	text-shadow: 0 4px 1px #000;
+	line-height:30px;
+	color:#fff;
+	height:0px;
+	display:block;
+}
+
+form#pannello-aggiungi label#Magazzino{
+	margin:30px auto;
+	padding-top:7px;
+	font-family:SansumiExtraBoldRegular, Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	text-align:left;
+	text-shadow: 0 4px 1px #000;
+	line-height:30px;
+	color:#fff;
+	height:0px;
+	display:block;
+}
+
+/*Pannello Modifica*/
+#pannello-modifica{
+  border:6px solid #fff;
+  border-radius:10px;
+  padding-top: 30px;
+  padding-bottom:30px;
+  padding-left: 30px;
+  padding-right: 95px;
+  width: 100px;
+}
+
+form#pannello-modifica{
+		z-index:2;
+		width:650px;
+		height:200px;
+		position:relative;
+		margin:10px auto;
+		
+}
+
+form#pannello-modifica h1{
+	font-family:SansumiExtraBoldRegular, Tahoma, Geneva, sans-serif;
+	font-size:34px;
+	text-align:center;
+	color:#fff;
+}
+
+form#pannello-modifica select{
+	height: 30px;
+	width: 500px;
+	margin-left: 100px;
+	text-align:center;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Times New Roman", Serif;
+	color: #FFFFFF; 
+	background-color: #000000;
+}
+
+/*Pannello Elimina*/
+#pannello-elimina{
+  border:6px solid #fff;
+  border-radius:10px;
+  padding-top: 30px;
+  padding-bottom:0px;
+  padding-left: 30px;
+  padding-right: 95px;
+  width: 100px;
+}
+
+
+form#pannello-elimina{
+		z-index:2;
+		width:650px;
+		height:200px;
+		position:relative;
+		margin:10px auto;
+}
+
+form#pannello-elimina h1{
+	font-family:SansumiExtraBoldRegular, Tahoma, Geneva, sans-serif;
+	font-size:34px;
+	text-align:center;
+	color:#fff;
+}
+
+form#pannello-elimina select{
+	height: 30px;
+	width: 500px;
+	margin-left: 100px;
+	text-align:center;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Times New Roman", Serif;
+	color: #FFFFFF; 
+	background-color: #000000;
+}
+
+/*Contenuto*/
+#content{
+  margin-left:20px;
+  margin-bottom:20px;
+  margin-right: 30px;
+  margin-top: 20px;
+  border: 5px solid #ffffff;
+  border-radius:10px;
+}
+#contenuto{
+  margin-left:20px;
+  margin-bottom:20px;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+#immagine{
+  margin: 30px;
+  overflow: auto;
+  
+}
+#immagine img{
+  border: 3px solid;
+  width: 180px;
+  height: 250px;
+  
+}
+
+#testo {
+  margin: 2px;
+  float: right;
+  width: 800px;
+  height: 230px;
+  border: 3px solid #00c0FF;
+  border-radius:10px;
+  overflow: scroll;
+  background-color: #fff;
+  padding: 10px;
+}
+
+/*Carrello*/
+#contentcarrello{
+  margin-left:20px;
+  margin-bottom:20px;
+  margin-right: 30px;
+  margin-top: 20px;
+  border: 5px solid #ffffff;
+  border-radius:10px;
+}
+
+#tutto{
+  height:310px;
+  width:1080px;
+}
+
+#tutto1{
+  height: 310px;
+  width: 800px;
+  float: right;
+  margin-right: 35px;
+}
+#immaginecarrello{
+  margin: 30px;
+  width: 180px;
+  height: 250px;
+  float: left;
+  
+}
+#immaginecarrello img{
+  border: 3px solid;
+  width: 180px;
+  height: 250px;
+  
+}
+
+#testocarrello {
+  margin-top: 50px;
+  float: right;
+  width: 800px;
+  height: 100px;
+  border: 3px solid #00c0FF;
+  border-radius:10px;
+  background-color: #fff;
+}
+
+#bottoneaggiungi {
+  width: 300px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+
+
+
+

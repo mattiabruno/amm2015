@@ -45,30 +45,30 @@
 				echo '<form id="pannello-aggiungi" action="../Controllers/ModificaFilm.php" method="post">
 				<!-- titolo form -->
 				<h1>Modifica Film</h1><br>
-				<input type="hidden" id="id" name="id" value="'. $dati['id_film'] .'">
+				<input type="hidden" id="id" name="id" value="'. $dati['id_film'] .'" required>
 				<!-- campo ed etichetta Titolo -->   
 				<label for="Titolo" id="Titolo">Titolo
-				<input type="text" name="Titolo" id="Titolo" value="'. $dati['titolo'] .'"/><br>
+				<input type="text" name="Titolo" id="Titolo" value="'. $dati['titolo'] .'"required/><br>
 				</label>
 				<!-- campo ed etichetta Descrizione -->  
 				<label for="Descrizione" id="Descrizione">Descrizione (max:2000 caratteri.)<br>
-				<textarea name="Descrizione" rows="10" cols="100" >'. $dati['descrizione'] .'</textarea><br>
+				<textarea name="Descrizione" rows="10" cols="100" required>'. $dati['descrizione'] .'</textarea><br>
 				</label>
 				<!-- campo ed etichetta Url -->  
 				<label for="Url" id="Url">Url
-				<input type="text" name="Url" id="Url" value="'. $dati['url_immagine'] .'"/><b>
+				<input type="text" name="Url" id="Url" value="'. $dati['url_immagine'] .'"required/><b>
 				</label>
 				<!-- campo ed etichetta Durata -->   
 				<label for="Durata" id="Durata">Durata
-				 <input type="text" name="Durata" id="Durata" value="'. $dati['durata'] .'"/><br>
+				 <input type="text" name="Durata" id="Durata" value="'. $dati['durata'] .'"required/><br>
 				</label>
 				<!-- campo ed etichetta Prezzo -->   
 				<label for="Prezzo" id="Prezzo">Prezzo
-				 <input type="text" name="Prezzo" id="Prezzo" value="'. $dati['prezzo'] .'"/><br>
+				 <input type="text" name="Prezzo" id="Prezzo" value="'. $dati['prezzo'] .'"required/><br>
 				</label>
 				<!-- campo ed etichetta Magazzino -->   
 				<label for="Magazzino" id="Magazzino">Magazzino
-				 <input type="text" name="Magazzino" id="Magazzino" value="'. $dati['magazzino'] .'"/><br>
+				 <input type="text" name="Magazzino" id="Magazzino" value="'. $dati['magazzino'] .'"required/><br>
 				</label>
 				<!-- tasto di invio -->
 				<input style="margin-top:30px; text-align:center; background: #00c0FF; color: #fff; padding-top:15px; padding-left:50px;

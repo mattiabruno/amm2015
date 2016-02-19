@@ -7,8 +7,8 @@ class Database
 	public $conn;
 	protected function DbConnect()
 	{
-	$this->conn = mysql_connect("localhost","root","bruno") OR die("Impossibile connettersi al database");
-	mysql_select_db("dbfilm", $this->conn);
+	$this->conn = mysql_connect("localhost","","") OR die("Impossibile connettersi al database");
+	mysql_select_db("amm15_brunoMattia", $this->conn);
 	}
 	
 	public function VerificaLogin($nome,$password)

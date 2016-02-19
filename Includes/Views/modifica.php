@@ -48,6 +48,7 @@
 					include '../Models/Database.php';
 					$var = new Database();
 					$nfilm = $var->QueryNumeroFilm();
+					echo '<option value = "'.'"> Seleziona un film </option>';
 					for($i=0;$i<$nfilm; $i++)
 					{
 						$dati = $var->QueryRecuperaDatiFilm($i);

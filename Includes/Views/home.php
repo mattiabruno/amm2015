@@ -34,11 +34,11 @@
 				<h1>Accesso Utenti</h1>
 			<!-- campo ed etichetta username -->   
 			<label for="nome" id="nome">Username
-				<input type="text" name="nome" id="nome" />
+				<input type="text" name="nome" id="nome" required/>
 			</label>
 			<!-- campo ed etichetta password -->  
 			<label for="password" id="password">Password
-			  <input type="password" name="password" id="password" />
+			  <input type="password" name="password" id="password" required />
 			</label>
 			<!-- tasto di invio -->
 			<input style="margin-top:30px; text-align:center; background: #00c0FF; color: #fff; padding-top:15px; padding-left:50px; padding-bottom:15px; padding-right:50px; border-radius:3px; font-size:20px; margin-left:235px;" name="Login" type="submit" value="LOGIN" id="submit" value="Login" id="submit" />

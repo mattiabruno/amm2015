@@ -46,7 +46,7 @@
 				<h1>Aggiungi Film</h1><br>
 				<!-- campo ed etichetta Titolo -->   
 				<label for="Titolo" id="Titolo">Titolo
-				<input type="text" name="Titolo" id="Titolo" value="/><br>
+				<input type="text" name="Titolo" id="Titolo"/><br>
 				</label>
 				<!-- campo ed etichetta Descrizione -->  
 				<label for="Descrizione" id="Descrizione">Descrizione (max:2000 caratteri)<br>

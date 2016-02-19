@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+  margin:0;
+  padding:0;
+  background:#purple url(Immagini/body3.png);
+}
+
+footer{	
+padding-top:2px;
+ text-align: center;
+ margin-left:0px;
+ width:1150px; 
+ height:57px; 
+ background:url(Immagini/barra-footer.jpg)
+}
+
+a{
+	text-decoration:none;	
+}
+
+#slideshow { 
+ margin:0 auto; 
+ padding:0;  
+ width:910px;  
+ height:250px;  
+ border:5px solid #00c0FF;  
+ text-align: center;
+}  
+#slideshow img {   
+ display:block;  
+ position:absolute;  
+}  
+
+#sfondo_centrale {
+ padding-top:20px;	
+ margin:0 auto;  
+ width:1150px; 
+ height:100%; 
+ background-color: #393939;
+}
+
+#menu{
+  margin-top:20px;
+  background: url(Immagini/barra-menu.png);
+  background-repeat: no-repeat; 
+}
+
+#bottone_home{
+  margin-left:9px;
+}
+
+#bottone_login{
+  padding-right:10px;
+  float:right;
+  padding-top:12px;
+}
+
+#link_menu{
+
+}
+
+#contenuto{
+	padding-top:30px;
+	padding-bottom:30px;
+	padding-right:22px;
+	padding-left:22px;
+}
+
+
+
+
+/* PROVA */
+*{ margin:0; padding:0;}
+
+#lightout{
+
+	height:100%;
+	background-color:#000;
+	opacity:0.9;
+	position:absolute;
+	z-index:1;
+	overflow:hidden;
+	width:100%;
+
+}
+
+form#panello-login{
+		z-index:2;
+		width:650px;
+		height:600px;
+		position:relative;
+		background-image:url(Immagini/sfondopanel4.png);
+		background-repeat:no-repeat;
+		background-position:center;
+		margin:10px auto;
+}
+
+form#panello-login h1{
+	font-family:SansumiExtraBoldRegular, Tahoma, Geneva, sans-serif;
+	font-size:34px;
+	text-align:center;
+	line-height:160px;
+	color:#fff;
+}
+
+form#panello-login label{
+	margin:70px auto;
+	width:360px;
+	font-family:SansumiExtraBoldRegular, Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	text-align:left;
+	text-shadow: 0 4px 1px #000;
+	line-height:30px;
+	color:#fff;
+	height:0px;
+	display:block;
+
+}
+
+form#panello-login label input{
+	padding: 5px;
+	height:20px;
+	float:right;
+	font-family:Berlin Sans FB Demi;
+	font-size:18px;
+
+}
+
+form#panello-login p.lostpass{
+	width:400px;
+	margin:0 auto;
+	text-align:right;
+
+}
+
+form#panello-login p.lostpass a{
+	color:#999;
+	font-family:SansumiExtraBoldRegular, Tahoma, Geneva, sans-serif;
+	font-size:10px;
+	text-decoration:none;
+
+}
+
+form#panello-login p.lostpass a:hover{
+	color:#fff;
+}
+
+form#panello-login p.submit{
+	clear:both;
+	width:400px;
+	overflow:hidden;
+	margin:0 auto;
+}
+
+form#panello-login p.submit input[type=submit]{
+
+		border-radius:5px;
+		color:#fff;
+		text-shadow:0 2px 1px #000;
+		background-color:#ff4e00;
+		padding:5px 15px;
+		float:right;
+		font-family:SansumiExtraBoldRegular, Tahoma, Geneva, sans-serif;
+		font-size:18px;
+		border:none;
+		margin:15px 0 0 0;
+		display:block;
+		box-shadow: 0 0px 8px #000;
+}
+
+form#panello-login p.submit input[type=submit]:hover{
+		background-color:#ff8a00;
+		cursor:auto;
+}
